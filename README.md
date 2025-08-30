@@ -1,13 +1,13 @@
-#🎬 IMDb Top 250 Movies Analysis & Prediction#
+# 🎬 IMDb Top 250 Movies Analysis & Prediction#
 
-📌 Overview
+**📌 Overview**
 
 This project scrapes, cleans, and analyzes the IMDb Top 250 Movies dataset.
 Using machine learning models, it attempts to predict IMDb ratings based on features such as duration, year, votes, and genres.
 
 It also includes exploratory data analysis (EDA) with visualizations and correlation analysis.
 
-#🚀 Features
+**🚀 Features**
 
 ✅ Web Scraping – Extracted IMDb Top 250 movies (title, genre, rating, votes, duration, etc.)
 
@@ -28,7 +28,7 @@ Gradient Boosting Regressor
 ✅ Hyperparameter Tuning with GridSearchCV
 ✅ Model Comparison – R² score, MAE, RMSE
 
-#🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Language: Python 🐍
 Libraries:
@@ -37,7 +37,7 @@ pandas, numpy → Data processing
 matplotlib, seaborn → Visualization
 scikit-learn → Machine Learning
 
-#📊 Results
+**📊 Results**
 
 Best model: Random Forest / Gradient Boosting (after tuning)
 
@@ -47,12 +47,12 @@ Strongest predictor: Number of votes (popularity).
 
 Duration & genre had weak correlation with IMDb rating.
 
-#📂 Project Structure
+**📂 Project Structure**
 ├── imdb_analysis.ipynb   # Jupyter notebook with code
 ├── imdb_data.csv         # Cleaned dataset
 ├── README.md             # Project documentation
 
-#🔮 Future Improvements
+**🔮 Future Improvements**
 
 Add text analysis from movie titles/descriptions using NLP.
 
@@ -62,7 +62,7 @@ Use advanced models: XGBoost, CatBoost, Deep Learning.
 
 Deploy model with Flask/Streamlit for live predictions.
 
-#👨‍💻 Author
+**👨‍💻 Author**
 
 Developed by Sowjanya U ✨
 If you like this repo, ⭐ it and connect with me!
