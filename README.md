@@ -18,6 +18,7 @@ It also includes exploratory data analysis (EDA) with visualizations and correla
 ✅ Feature Engineering – One-hot encoding for genres, numeric transformations
 
 ✅ Modeling – Trained and evaluated multiple regression models:
+
       1.Linear Regression
       
       2.Random Forest Regressor
@@ -39,8 +40,11 @@ scikit-learn → Machine Learning
 **📊 Results**
 
 Best model: Random Forest / Gradient Boosting (after tuning)
+
 Achieved R² ≈ 0.25 – 0.35 → Ratings are difficult to predict from limited features.
+
 Strongest predictor: Number of votes (popularity).
+
 Duration & genre had weak correlation with IMDb rating.
 
 **📂 Project Structure**
